@@ -133,8 +133,8 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "CasePaths", "~> 0.2.0"
-  spec.dependency "CombineSchedulers", "~> 0.5.0"
-  spec.dependency "XCTestDynamicOverlay", "~> 0.1.0"
+  spec.dependency "CasePaths", "~> 0.7.0"
+  spec.dependency "CombineSchedulers", "~> 0.5.3"
+  spec.dependency "XCTestDynamicOverlay", "~> 0.2.1"
 
 end
